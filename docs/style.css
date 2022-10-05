@@ -9,12 +9,17 @@ h1 {
     color: white;
     text-align: center;
 }
-.col1{
-    width: 75%;
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
 }
 
-.col2 {
-    width: 25%;
+.grid-item {
+    padding: 20px;
+    font-size: 12px;
+    text-align: center;
 }
 
 h2.resume {
